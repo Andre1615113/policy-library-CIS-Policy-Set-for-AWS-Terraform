@@ -44,7 +44,7 @@ policy "ec2-ebs-encryption-enabled" {
 
 policy "ec2-network-acl" {
   source = "./policies/ec2/ec2-network-acl.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "ec2-vpc-flow-logging-enabled" {
