@@ -37,7 +37,7 @@ const = {
 # Functions
 
 contains_catchall_ip_for_ipv4 = func(cidr_block) {
-	return cidr_block is defined and cidr_block is "0.0.0.0/16"
+	return cidr_block is defined and cidr_block is "0.0.0.0/0"
 }
 
 contains_catchall_ip_for_ipv6 = func(cidr_block) {
