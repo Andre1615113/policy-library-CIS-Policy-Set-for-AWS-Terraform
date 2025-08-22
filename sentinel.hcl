@@ -64,7 +64,7 @@ policy "ec2-metadata-imdsv2-required" {
 
 policy "ec2-security-group-ipv4-ingress-traffic-restriction" {
   source = "./policies/ec2/ec2-security-group-ingress-traffic-restriction-protocol.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 
 }
 
