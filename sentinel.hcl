@@ -70,19 +70,19 @@ policy "ec2-security-group-ipv4-ingress-traffic-restriction" {
 
 policy "ec2-security-group-ipv6-ingress-traffic-restriction" {
   source = "./policies/ec2/ec2-security-group-ingress-traffic-restriction-protocol.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 
 }
 
 policy "ec2-security-group-ingress-traffic-restriction-port-22" {
   source = "./policies/ec2/ec2-security-group-ingress-traffic-restriction-port.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 
 }
 
 policy "ec2-security-group-ingress-traffic-restriction-port-3389" {
   source = "./policies/ec2/ec2-security-group-ingress-traffic-restriction-port.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 
 }
 
